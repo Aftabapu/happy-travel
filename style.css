@@ -1,29 +1,39 @@
-.img{
-	background-image: url('ab.jpg');
+*{
+	margin:0;
+	padding: 0;
+
+}
+
+.navbar-nav .navbar-item{
+
+}
+
+
+#home{
+	background: url('img/wallpaper.jpeg') no-repeat;
 	background-size: cover;
+	height: 90vh;
+	position: relative;
 }
-.hero
 
-{
+#home .dark-mode{
 	position: absolute;
-	width: 1200px;
-	margin-left: 0;
-	margin-top: 0;
+	height: 80vh;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.4);
 }
 
-h1{
-	color: white;
-	text-transform: uppercase;
-	font-size: 70px;
-	text-align: center;
-	margin-top: 275x;
+
+.dark-mode .display-3{
+	font-weight: 600 !important;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
 }
 
-h2{
-	color: white;
-	text-transform: uppercase;
-	font-size: 30px;
-	text-align: center;
-	margin-top: 175x;
+.dark-mode p{
+	letter-spacing: 2px;
+	font-size: 20px;
 }
-
